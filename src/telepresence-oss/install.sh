@@ -20,8 +20,11 @@ echo "The effective dev container containerUser's home directory is '$_CONTAINER
 
 apt-get update -y 
 apt-get install -y iptables sshfs 
+ver="v2.17.0"
+aarch=$(dpkg --print-architecture)
 
-curl -fL https://app.getambassador.io/download/tel2oss/releases/download/v2.17.0/telepresence-darwin-amd64 -o /usr/local/bin/telepresence
+curl -fL https://app.getambassador.io/download/tel2oss/releases/download/${ver}/telepresence-linux-${aarch} -o /usr/local/bin/telepresence
 
 chmod a+x /usr/local/bin/telepresence
+
 
