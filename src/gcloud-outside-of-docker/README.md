@@ -1,13 +1,13 @@
 
-# telepresence oss (telepresence-oss)
+# gcloud outside of docker (gcloud-outside-of-docker)
 
-telepresence OSS
+Re-use gcloud config in host
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/keizo042/devcontainer-features/telepresence-oss:1": {}
+    "ghcr.io/keizo042/devcontainer-features/gcloud-outside-of-docker:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ telepresence OSS
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/keizo042/devcontainer-features/blob/main/src/telepresence-oss/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/keizo042/devcontainer-features/blob/main/src/gcloud-outside-of-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
