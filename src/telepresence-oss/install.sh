@@ -18,8 +18,8 @@ echo "The effective dev container containerUser is '$_CONTAINER_USER'"
 echo "The effective dev container containerUser's home directory is '$_CONTAINER_USER_HOME'"
 
 
-apt update -y 
-apt install -y iptables sshfs 
+apt-get update -y 
+apt-get install -y iptables sshfs 
 
 curl -fL https://app.getambassador.io/download/tel2oss/releases/download/v2.17.0/telepresence-darwin-amd64 -o /usr/local/bin/telepresence
 
