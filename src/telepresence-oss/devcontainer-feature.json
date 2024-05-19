@@ -1,0 +1,11 @@
+{
+    "name": "telepresence oss",
+    "id": "telepresence-oss",
+    "version": "1.0.0",
+    "description": "telepresence OSS",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
