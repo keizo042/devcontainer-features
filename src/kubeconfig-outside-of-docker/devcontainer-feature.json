@@ -1,0 +1,19 @@
+{
+    "id": "kubeconfig-outside-of-docker",
+    "version": "1.0.0",
+    "name": "kubeconfig outside of docker",
+    "documentationURL": "",
+    "description": "Re use kubeconfig on host",
+    "options": {
+    },
+    "mounts": [
+        {
+            "source": "${localEnv:HOME}/.kube",
+            "target": "${containerEnv:HOME}/.kube",
+            "type": "bind"
+        }
+    ],
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
