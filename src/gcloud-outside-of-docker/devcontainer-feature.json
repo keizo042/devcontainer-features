@@ -1,0 +1,19 @@
+{
+    "id": "gcloud-outside-of-docker",
+    "version": "1.0.0",
+    "name": "gcloud outside of docker",
+    "documentationURL": "",
+    "description": "Re-use gcloud config in host",
+    "options": {
+    },
+    "mounts": [
+        {
+            "source": "${localEnv:HOME}/.config/gcloud",
+            "target": "${containerEnv:HOME}/.config/gcloud",
+            "type": "bind"
+        }
+    ],
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
