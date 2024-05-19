@@ -2,7 +2,7 @@
     "name": "telepresence oss",
     "privileged": true,
     "id": "telepresence-oss",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "telepresence OSS",
     "options": {
     },
