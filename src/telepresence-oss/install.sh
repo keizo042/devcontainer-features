@@ -3,8 +3,6 @@ set -e
 
 echo "Activating feature 'telepresence-oss'"
 
-echo "The provided greeting is: $GREETING"
-
 # The 'install.sh' entrypoint script is always executed as the root user.
 #
 # These following environment variables are passed in by the dev container CLI.
