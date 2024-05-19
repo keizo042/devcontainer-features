@@ -15,7 +15,7 @@ Re use kubeconfig on host
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-
+| remoteUser | remoteUser to mount kubeconfig | string | root |
 
 
 
