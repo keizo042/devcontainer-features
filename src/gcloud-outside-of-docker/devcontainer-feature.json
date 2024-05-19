@@ -9,7 +9,7 @@
     "mounts": [
         {
             "source": "${localEnv:HOME}/.config/gcloud",
-            "target": "${containerEnv:HOME}/.config/gcloud",
+            "target": "/home/root/.config/gcloud",
             "type": "bind"
         }
     ],
