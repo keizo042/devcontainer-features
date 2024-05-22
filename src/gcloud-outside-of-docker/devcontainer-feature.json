@@ -1,6 +1,6 @@
 {
     "id": "gcloud-outside-of-docker",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "gcloud outside of docker",
     "documentationURL": "",
     "description": "Re-use gcloud config in host",
