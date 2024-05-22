@@ -1,6 +1,6 @@
 {
     "id": "kubeconfig-outside-of-docker",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "name": "kubeconfig outside of docker",
     "documentationURL": "",
     "description": "Re use kubeconfig on host",
