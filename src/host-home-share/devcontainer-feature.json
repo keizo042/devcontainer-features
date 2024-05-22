@@ -9,7 +9,7 @@
         "ghcr.io/devcontainers/features/common-utils"
     ],
     "mounts": [
-	    "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/var/tmp/home,type=bind,consistency=cached"
+	    {"source":"${localEnv:HOME}${localEnv:USERPROFILE}","target":"/var/tmp/home","type":"bind"}
     ]
 }
 
