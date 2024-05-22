@@ -9,6 +9,5 @@
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
 	"ghcr.io/keizo042/devcontainer-features/host-home-share"
-
     ]
 }
