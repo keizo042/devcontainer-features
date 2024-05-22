@@ -6,8 +6,10 @@
     "description": "Re use kubeconfig on host",
     "options": {
     },
+    "dependsOn": {
+	"ghcr.io/keizo042/devcontainer-features/host-home-share"
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
-	"ghcr.io/keizo042/devcontainer-features/host-home-share"
     ]
 }

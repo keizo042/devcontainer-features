@@ -1,13 +1,15 @@
 {
     "id": "gcloud-outside-of-docker",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "gcloud outside of docker",
     "documentationURL": "",
     "description": "Re-use gcloud config in host",
     "options": {
     },
+    "dependsOn": {
+	 "ghcr.io/keizo042/devcontainer-features/host-home-share"
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
-	 "ghcr.io/keizo042/devcontainer-features/host-home-share"
     ]
 }
