@@ -21,4 +21,4 @@ Re-use gcloud config in host
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/keizo042/devcontainer-features/blob/main/src/gcloud-outside-of-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

@@ -1,13 +1,13 @@
 
-# kubeconfig outside of docker (kubeconfig-outside-of-docker)
+# host home share (host-home-share)
 
-Re use kubeconfig on host
+container access host user home directory
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/keizo042/devcontainer-features/kubeconfig-outside-of-docker:1": {}
+    "ghcr.io/keizo042/devcontainer-features/host-home-share:1": {}
 }
 ```
 
