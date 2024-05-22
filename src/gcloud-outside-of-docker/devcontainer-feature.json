@@ -7,7 +7,7 @@
     "options": {
     },
     "dependsOn": {
-	 "ghcr.io/keizo042/devcontainer-features/host-home-share"
+	 "ghcr.io/keizo042/devcontainer-features/host-home-share:latest" : {}
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
