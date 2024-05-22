@@ -5,20 +5,10 @@
     "documentationURL": "",
     "description": "Re use kubeconfig on host",
     "options": {
-	    "remoteUser": {
-		    "type": "string",
-		    "default": "root",
-		    "description": "remoteUser to mount kubeconfig"
-        }
     },
-    "mounts": [
-        {
-            "source": "${localEnv:HOME}/.kube",
-            "target": "/home/root/.kube",
-            "type": "bind"
-        }
-    ],
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
+        "ghcr.io/devcontainers/features/common-utils",
+	"ghcr.io/keizo042/devcontainer-features/host-home-share"
+
     ]
 }

@@ -6,14 +6,8 @@
     "description": "Re-use gcloud config in host",
     "options": {
     },
-    "mounts": [
-        {
-            "source": "${localEnv:HOME}/.config/gcloud",
-            "target": "/home/root/.config/gcloud",
-            "type": "bind"
-        }
-    ],
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
+        "ghcr.io/devcontainers/features/common-utils",
+	 "ghcr.io/keizo042/devcontainer-features/host-home-share"
     ]
 }
