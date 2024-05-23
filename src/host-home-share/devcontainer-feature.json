@@ -1,7 +1,7 @@
 {
     "name": "host home share",
     "id": "host-home-share",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "container access host user home directory",
     "options": {
     },
@@ -9,7 +9,7 @@
         "ghcr.io/devcontainers/features/common-utils"
     ],
     "mounts": [
-	    {"source":"${localEnv:HOME}${localEnv:USERPROFILE}","target":"/var/tmp/home","type":"bind"}
+	    {"source":"${localEnv:HOME}${localEnv:USERPROFILE}","target":"/media/home","type":"bind"}
     ]
 }
 

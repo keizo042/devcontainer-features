@@ -1,6 +1,6 @@
 {
     "id": "kubeconfig-outside-of-docker",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "name": "kubeconfig outside of docker",
     "documentationURL": "",
     "description": "Re use kubeconfig on host",
@@ -9,6 +9,6 @@
         "ghcr.io/keizo042/devcontainer-features/host-home-share:latest": {}
     },
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/common-utils"
     ]
 }
