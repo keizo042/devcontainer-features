@@ -1,0 +1,15 @@
+{
+    "name": "dhoeric/google-cloud-cli extension",
+    "id": "dhoeric-google-cloud-cli-ext",
+    "version": "1.0.0",
+    "description": "install google cloud kubectl and auth plugin  with dhoeric/google-cloud-cli",
+    "options": {
+    },
+    "dependsOn": {
+	"ghcr.io/dhoeric/features/google-cloud-cli:1": {}
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
+
